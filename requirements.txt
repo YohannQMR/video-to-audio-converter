@@ -1,0 +1,15 @@
+# Ce projet n'a pas de dépendances Python externes directes,
+# car il utilise FFmpeg qui est une dépendance système.
+# 
+# Cependant, si vous souhaitez développer ce projet, ces paquets
+# peuvent être utiles :
+
+# Pour les tests unitaires
+pytest>=7.0.0
+
+# Pour le linting et la vérification du code
+flake8>=4.0.0
+black>=22.0.0
+
+# Pour la génération de documentation
+sphinx>=4.5.0
